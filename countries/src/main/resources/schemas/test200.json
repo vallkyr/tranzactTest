@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": {"type": "string"},
+    "topLevelDomain": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "alpha2Code": {"type": "string"},
+    "alpha3Code": {"type": "string"},
+    "callingCodes": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "capital": {"type": "string"},
+    "altSpellings": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "region": {"type": "string"}
+  },
+  "required": ["name", "topLevelDomain", "alpha2Code", "alpha3Code", "callingCodes", "capital", "altSpellings", "region"]
+}
