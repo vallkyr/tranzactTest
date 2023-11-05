@@ -258,7 +258,7 @@ public class test01 {
          Assert.assertTrue(productExists3, "Item doesn't exist.");
                    
     }
-    //We use this to quit the chromedriver and finish execution.
+    //We use this to quit the chromedriver and finish execution
     @AfterMethod
     public void turnOffDriver() {
         if (driver != null) {
