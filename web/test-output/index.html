@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Command_line_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Command_line_suite" title="tests.test04" class="method navigator-link" hash-for-method="testCase04">testCase04</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Command_line_suite" title="tests.test01" class="method navigator-link" hash-for-method="testEvershop">testEvershop</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Command_line_suite -->
@@ -122,14 +122,14 @@
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.test04</span>
+              <span class="class-name">tests.test01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testCase04">
-                  </a> <!-- testCase04 -->
-                  <span class="method-name">testCase04</span>
+                  <a name="testEvershop">
+                  </a> <!-- testEvershop -->
+                  <span class="method-name">testEvershop</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -145,7 +145,7 @@
 &lt;suite name=&quot;Command line suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.test04&quot;/&gt;
+      &lt;class name=&quot;tests.test01&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Command line test --&gt;
 &lt;/suite&gt; &lt;!-- Command line suite --&gt;
@@ -187,14 +187,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testCase04')
-data.setCell(0, 2, 'tests.test04')
-data.setCell(0, 3, 2145);
+data.setCell(0, 1, 'testEvershop')
+data.setCell(0, 2, 'tests.test01')
+data.setCell(0, 3, 36228);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -220,11 +220,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.test04</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testCase04</span>
+              <div class="chronological-class-name">tests.test01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">turnOnDriver</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEvershop</span>
+                <span class="method-start">1283 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">turnOffDriver</span>
+                <span class="method-start">37512 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
